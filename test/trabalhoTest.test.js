@@ -1,5 +1,6 @@
 const GerenciadorDeTarefas = require('../src/Trabalho01Turma01.js');
 
+
 describe('GerenciadorDeTarefas', () => {
     let gerenciador;
     let tarefaExemplo;
@@ -62,8 +63,6 @@ describe('GerenciadorDeTarefas', () => {
         expect(tarefas[0].prioridade).toBe(1);
         expect(tarefas[1].prioridade).toBe(2);
     });
-
-    const GerenciadorDeTarefas = require('./Trabalho01Turma01');
 
     describe('GerenciadorDeTarefas', () => {
         let gerenciador;
